@@ -51,6 +51,6 @@
     "axios-retry": "^4.5.0",
     "class-transformer": "^0.5.1",
     "reflect-metadata": "^0.2.2",
-    "ws": "^8.18.0"
+    "ws": "^8.18.3"
   }
 }
