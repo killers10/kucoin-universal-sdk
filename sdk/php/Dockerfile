@@ -1,6 +1,6 @@
 ARG PHP_RUNTIME=8.1
 
-FROM php:8.1-cli AS builder
+FROM php:8.5.3RC1-cli AS builder
 WORKDIR /src
 RUN apt-get update && apt-get install -y unzip git jq \
     && curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
